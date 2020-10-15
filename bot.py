@@ -45,7 +45,6 @@ import nessmado_basic
 import NMconfig
 
 
-TOKEN = 'NzI0MDU1NDgyMzMwNzc1NjEz.Xu6nNw.wqSxJegGNqj0Xkg-N_YskZmpfFo'
 client = discord.Client()  # 接続に使用するオブジェクト
 nmconfig = NMconfig.NMConfig()
 
@@ -67,7 +66,7 @@ async def on_message(message):
 
 # botの接続と起動
 # （tokenにはbotアカウントのアクセストークンを入れてください）
-client.run(TOKEN)
+client.run('NzI0MDU1NDgyMzMwNzc1NjEz.Xu6nNw.h0fOjNejvYz4zFfNhQzDgu15w68')
 
 # -------------------ここでメイン終わり---------------------
 
