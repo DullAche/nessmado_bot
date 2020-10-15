@@ -45,6 +45,7 @@ import nessmado_basic
 import NMconfig
 
 
+TOKEN = 'NzI0MDU1NDgyMzMwNzc1NjEz.Xu6nNw.wqSxJegGNqj0Xkg-N_YskZmpfFo'
 client = discord.Client()  # 接続に使用するオブジェクト
 nmconfig = NMconfig.NMConfig()
 
